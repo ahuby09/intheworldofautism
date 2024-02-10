@@ -52,8 +52,71 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Applications</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="megaMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Applications</a>
+              <div class="dropdown-menu mega-menu" aria-labelledby="megaMenu">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="mega-menu-column">
+                        <h5>Speach and Accessibility</h5>
+                        <ul>
+                          <li>
+                            <a href="#">Text to speach</a>
+                          </li>
+                          <li>
+                            <a href="#">Sound Board</a>
+                          </li>
+                          <li>
+                            <a href="#">Emergency Info</a>
+                          </li>
+                          <li>
+                            <a href="#">Picture show</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="mega-menu-column">
+                        <h5>United States of America</h5>
+                        <ul>
+                          <li>
+                            <a href="#">Link 5</a>
+                          </li>
+                          <li>
+                            <a href="#">Link 6</a>
+                          </li>
+                          <li>
+                            <a href="#">Link 7</a>
+                          </li>
+                          <li>
+                            <a href="#">Link 8</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="mega-menu-column">
+                        <h5>South Africa</h5>
+                        <ul>
+                          <li>
+                            <a href="#">Link 9</a>
+                          </li>
+                          <li>
+                            <a href="#">Link 10</a>
+                          </li>
+                          <li>
+                            <a href="#">Link 11</a>
+                          </li>
+                          <li>
+                            <a href="#">Link 12</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Activities</a>
@@ -367,6 +430,7 @@
     </footer>
     <!-- Footer -->
     <!-- End of .container -->
+    
     <script src="/js/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,107 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+   /* Custom CSS for static wave effect */
+   .wave-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    padding-bottom: 50px; /* Adjust as needed */
+    background: #fff;
+}
+
+
+  /* Custom CSS for background color */
+  .top-nav {
+    background-color: #ccc; /* Grey background */
+    margin-top: -20px; /* Adjust the margin to ensure background reaches the top */    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+/* Mega menu styles */
+.mega-menu {
+    position: absolute;
+    left: -700px;
+    top: 100%;
+    width: 800px;
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.navbar-nav .nav-item:hover .mega-menu {
+    display: block;
+}
+.mega-menu-columns {
+    column-count: 3;
+    column-gap: 20px;
+}
+.mega-menu-column {
+    margin-bottom: 20px;
+}
+.mega-menu-column h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.mega-menu-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mega-menu-column ul li {
+    margin-bottom: 5px;
+}
+.custom-shape-divider-bottom-1707484161 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.fill{
+    fill: #FFFFFF !important;
+}
+ul.navbar-nav.fs-5 {
+    margin-top:  10px;
+}
+.min-vh-25{
+    min-height: 25vh;
+}
+.min-vh-40{
+    min-height: 40vh;
+}
+.fill-blue{
+    fill: #73B7C9;
+}
+.custom-shape-divider-bottom-1707523434 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #68967D;
+}
